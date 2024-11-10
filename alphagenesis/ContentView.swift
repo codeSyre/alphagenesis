@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  alphagenesis
 //
-//  Created by Yani Development Team on 10/11/2024.
+//  Created by codeSyre on 10/11/2024.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("I am codeSyre.")
         }
         .padding()
     }
