@@ -26,7 +26,7 @@ struct AGImages: View {
                 .scaledToFill()
                 .frame(width: 100, height: 100)
                 .clipShape(.circle)
-                .padding(.trailing)
+                .padding([.leading, .trailing])
             VStack(
                 alignment: .leading
             ){
@@ -38,6 +38,7 @@ struct AGImages: View {
                 
             }
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 
