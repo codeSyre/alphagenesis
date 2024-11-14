@@ -27,6 +27,16 @@ struct AGImages: View {
                 .frame(width: 100, height: 100)
                 .clipShape(.circle)
                 .padding([.leading, .trailing])
+                .overlay(
+                    Circle()
+                        .frame(width: 35, height: 35)
+                        .foregroundColor(.pink)
+                        .overlay(
+                            Image(systemName: "photo.badge.plus")
+                                .foregroundColor(.white)
+                                .font(.footnote)
+                        ), alignment: .bottomTrailing
+                )
             VStack(
                 alignment: .leading
             ){
