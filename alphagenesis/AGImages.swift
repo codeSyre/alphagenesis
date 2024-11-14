@@ -2,7 +2,7 @@
 //  AGImages.swift
 //  alphagenesis
 //
-//  Created by Yani Development Team on 14/11/2024.
+//  Created by codeSyre on 14/11/2024.
 //
 
 import SwiftUI
