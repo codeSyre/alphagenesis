@@ -30,6 +30,7 @@ struct ButtonText: View {
     var body: some View {
         Button(
             action: {
+                isClicked.toggle()
                 changeText()
             }, label: {
                 Text(btnTitle)
@@ -46,11 +47,9 @@ struct ButtonText: View {
         if isClicked {
             text = "Syre Wolf"
             btnTitle = "Username"
-            isClicked = !isClicked
         } else {
             text = "codeSyre"
             btnTitle = "Full Name"
-            isClicked = !isClicked
         }
     }
 }
